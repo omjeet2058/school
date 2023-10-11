@@ -1,0 +1,1004 @@
+/*
+Author:Omjeet Rawat
+E-mail:omjeet2058@gmail.com
+Contact No:+977-9864806630
+*/
+
+.modal-header form {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: block;
+  }
+.btn.btn-primary {
+    float: right;
+  }
+.btn-close {
+    display: flex;
+  }
+.form-group{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+
+header a{
+    text-decoration: none;
+}
+header{
+    background: #5e95cc;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    height: auto;
+}
+/* .row{
+    display: flex;
+    align-items: center;
+} */
+header .header-contact a{
+    color: #fff;
+    margin-right: 10px;
+    margin-top: 5px;
+    transition: 1s;
+}
+header .header-contact a:hover{
+    color: #aca3a3;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+header .media{
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.media .social-media{
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 50%;
+    /* border:2px solid #fff; */
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    padding: 2px;
+    background: #fff;
+}
+
+.media .social-media.facebook::before{
+    font-family: "Font Awesome 6 Brands";
+    content: '\f39e';
+}
+.media .social-media.facebook{
+    color: #fff;
+    background: #04509c;
+    transition: 1s;
+}
+.media .social-media.facebook:hover{
+    color: #04509c;
+    background: #ffffff;
+}
+.media .social-media.twitter::before{
+    font-family: "Font Awesome 6 Brands";
+    content: '\f099';
+}
+.media .social-media.twitter{
+    color: #fff;
+    background: #04509c;
+    transition: 1s;
+}
+.media .social-media.twitter:hover{
+    color: #04509c;
+    background: #ffffff;
+}
+.media .social-media.tiktok::before{
+    font-family: "Font Awesome 6 Brands";
+    content: '\e07b';
+}
+.media .social-media.tiktok{
+    color: #fff;
+    background: #0d0e0e;
+    transition: 1s;
+}
+.media .social-media.tiktok:hover{
+    color: #0d0e0e;
+    background: #ffffff;
+}
+.media .social-media.instagram::before{
+    font-family: "Font Awesome 6 Brands";
+    content: '\f16d';
+}
+.media .social-media.instagram{
+    background: rgb(235,223,94);
+    background: linear-gradient(90deg, rgba(235,223,94,1) 2%, rgba(158,12,59,1) 53%, rgba(158,12,140,1) 96%);
+    color: #fff;
+    transition: 1s;
+}
+
+.media .social-media.instagram:hover{
+    background: -webkit-linear-gradient(#cdeb09, #f807f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 0;
+    /* background: rgb(235,223,94);
+    background: linear-gradient(180deg, rgba(235,223,94,1) 2%, rgba(158,12,59,1) 53%, rgba(158,12,140,1) 96%); */
+}
+.instagram-background{
+    background: white;
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+section.logo-bar img.img-thumbnail{
+    border: 0 !important;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+
+ section .row .search{
+     display: inline-block;
+    }
+section .search_form {
+    display: inline-flex;
+    padding: 40px;
+}
+
+section .row .search form{
+    width: 100%;
+}
+
+section .search_bar {
+    background: #f52a84;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+  }
+
+nav .nav-link:hover{
+    background-color: #0d0e0e;
+    color: #fff !important;
+}
+nav .dropdown .dropdown-item:hover{
+    background-color: #0d0e0e;
+    color: #fff !important;
+}
+nav .dropdown .dropdown-menu{
+    margin-top: 0;
+    padding-top: 0;
+}
+nav .nav-item .dropdown-menu{
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    margin-top: 7px;
+    border: none;
+    border-radius: 0;
+}
+nav .nav-item:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: rotateX(0deg);
+
+}
+nav .dropdown-menu{
+    transform: rotateX(75deg);
+    transform-origin: 0 0;
+}
+section.slider{
+    height: 600px;
+}
+section.slider .container-fluid{
+    margin: 0;
+    padding: 0;
+}
+section.slider img{
+    width: 100%;
+    height: 600px;
+
+}
+
+section.slider .owl-dots {
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  section.slider .owl-nav {
+      display: none;
+  }
+
+
+/* why choose us */
+section.why-choose-us{
+    margin: 50px;
+    padding: 0;
+}
+
+
+section.why-choose-us h1,
+section.why-choose-us h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+section.why-choose-us h2{
+    color: #f52a84;
+}
+
+section.why-choose-us p{
+    text-align: justify;
+}
+
+/* learning program */
+section .border-box{
+    border: 2px solid #f807f44f;
+    border-radius: 5px;
+    padding: 20px;
+    transition: .8s;
+    margin-bottom: 30px;
+    
+}
+section .border-box h1{
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+section .border-box:hover{
+    -webkit-box-shadow: 0 0 5px 2px #f807f4;
+    box-shadow: 0 0 5px 2px #f807f4;
+}
+section .border-box a  {
+    text-decoration: none;
+    font-size: 40px;
+    color: #f807f4;
+    transition: 1s;
+}
+section .border-box a:hover{
+    color: #700e6e;
+    
+}
+
+section span.icon-shape{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    justify-content: center;
+    padding: 15px;
+    background: #f807f4 ;
+}
+
+section.why-choose-us .icon-shape i{
+    font-size: 60px;   
+    color: #fff;
+}
+
+/*expert teacher*/
+section .expert-teacher.border-box{
+    border: 2px solid #fdcc066c;
+    
+}
+section .expert-teacher.border-box:hover{
+    -webkit-box-shadow: 0 0 5px 2px #b99919;
+    box-shadow: 0 0 5px 2px #ffcf13;
+}
+section .expert-teacher.border-box a  {
+    color: #ffcf13;
+}
+
+section .expert-teacher.border-box a:hover{
+    color: #a98b10;
+    
+}
+
+section .expert-teacher span.icon-shape{
+    background: #ffcf13 ;
+}
+
+
+/*learning program*/
+section .global-certification.border-box{
+    border: 2px solid #882bf37c;
+    
+}
+section .global-certification.border-box:hover{
+    -webkit-box-shadow: 0 0 5px 2px #892bf3;
+    box-shadow: 0 0 5px 2px #892bf3;
+}
+section .global-certification.border-box a  {
+    color: #892bf3;
+}
+
+section .global-certification.border-box a:hover{
+    color: #570aae;
+    
+}
+
+section .global-certification span.icon-shape{
+    background: #892bf3 ;
+}
+
+
+/* special-attention*/
+section.special-attention{
+    background-image: url('../images/pinkbg.jpg');
+    height: auto;
+    background-attachment: fixed;
+    padding: 100px 0 ;
+}
+
+/* News and Events */
+section.special-attention .news-and-events{
+    height: 250px;
+    overflow: hidden;
+}
+section.special-attention .news-and-events h2{
+    font-weight: 700;
+    color: #ffcf13;
+    text-transform: uppercase;
+}
+section.special-attention .event-item{
+    padding: 0;
+    margin-top: 3 0px;
+}
+ section.special-attention .ticker{
+    padding: 0;
+    margin-top: 20px;
+}
+
+section.special-attention .ticker li{
+    list-style:none;
+    display: flex;
+}
+
+section.special-attention .ticker .date{
+    align-items: center;
+}
+
+section.special-attention .ticker .date .day h2{
+    font-weight: 700;
+    color:#0d0e0e;
+}
+
+section.special-attention .ticker .date .month{
+    background: #7d22e3;
+    padding: 5px;
+    align-items: center;
+    margin: 0;
+}
+section.special-attention .ticker .date .month h3{
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+section.special-attention .ticker .date .day{
+    background:#fff;
+    color: #0d0e0e;
+    text-align: center;
+    margin: 0;
+}
+
+section.special-attention .ticker .events a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+section.special-attention .ticker .events{
+    background: #c2bdbd;
+    width: 100%;
+    text-align: center;
+    vertical-align:middle;
+    padding-top: 20px;
+    height: 90px;
+    /* display: flex; */
+}
+
+/* Who We are  */
+section.special-attention .who-we-are{
+    padding: 0;
+    
+}
+section.special-attention .who-we-are h2{
+    font-weight: 700;
+    color: #ffcf13;
+    text-transform: uppercase;
+}
+section.special-attention .who-we-are h1{
+    font-weight: 700;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+section .contact {
+    border: 2px solid #000;
+    width: 100%;
+}
+section .contact i{
+    background-color: #ffcf13;;
+    color: #000;
+    width: 100px;
+    height: fit-content;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+section .query{
+    text-align: center;
+    border-right: 2px solid #000;
+}
+section .query a{
+    text-decoration: none;
+    color: #000;
+}
+section .signature{
+    font-size: 20px;
+    font-family: cursive;
+    padding: 25px;    
+}
+
+
+
+/* Number Scroll */
+section.numscroll{
+    background-image: url('../images/child.jpg');
+    padding: 100px 0;
+    
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+section.numscroll h2{
+    font-weight: 700;
+}
+
+section.numscroll .number{  
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background: rebeccapurple;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;;
+    color: #fff;
+    font-size: 60px;
+}
+section.numscroll .course{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background: #ffcf13;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;;
+    color: #fff;
+    font-size: 60px;
+}
+section.numscroll .events{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background: #f52a84;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;;
+    color: #fff;
+    font-size: 60px;
+}
+
+/* What we Provide */
+section.what-we-provide{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #d1cbcb;
+}
+
+section.what-we-provide .populer-classes h4{
+    color: #f52a84;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+section.what-we-provide .populer-classes h1{
+    color: #2d2a2a;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+section.what-we-provide P{
+    color: #3e3c3c;
+}
+section.what-we-provide .row{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+section.what-we-provide .class{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+section .color-matching{
+    background-color: #fff;
+    padding: 0;
+    justify-content: space-evenly;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+section .color-matching .img{
+    overflow: hidden;
+}
+section .color-matching img{
+    height: 250px;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    object-fit: cover;
+    object-position: top;
+    display: flex;
+    transition: 1s;
+}
+section .color-matching img:hover{
+    scale: 1.2;
+}
+
+section.what-we-provide .main-div{
+    display: flex;
+    border-top: 1px dotted #700e6e;
+    justify-content: space-evenly;
+}
+
+section.what-we-provide .join-now{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+section.what-we-provide .main-div h4{
+    color: #f52a84;
+}
+section.what-we-provide .join-now h3{
+    font-size: 20px;
+    padding: 10px 40px;
+    background-color:#f52a84 ;
+    color: #fff;
+    border-radius: 30px;
+    width: fit-content;
+    font-weight: 700;
+    transition: 1s;
+}
+section.what-we-provide .join-now h3:hover{
+    background-color:#c61565 ;
+    color: #cec4c4;
+}
+
+
+
+/* Our School Facilities */
+section.our-school-facilities{
+    background-image: url('../images/special-care.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    padding: 80px 0;
+    margin: 0;
+}
+section.our-school-facilities .main-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section.our-school-facilities .facilities{
+    width: 700px;
+}
+section.our-school-facilities h3{
+    color: #ffcf13;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+section.our-school-facilities h1{
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+section.our-school-facilities .special{
+    background-color: #fff;
+    padding: 5px 10px;
+    margin: 20px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+section.our-school-facilities .special h4{
+    font-size: 15px;
+    font-weight: 700;
+    align-items: center;
+}
+section.our-school-facilities .hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section.our-school-facilities .first h3{
+    border-radius: 50%;
+    background-color: #f52a84;
+    padding: 10px 0;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.our-school-facilities .second h3{
+    border-radius: 50%;
+    background-color: #892bf3;
+    padding: 10px 0;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.our-school-facilities .third h3{
+    border-radius: 50%;
+    background-color: #ffcf13;
+    padding: 10px 0;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.our-school-facilities .fourth h3{
+    border-radius: 50%;
+    background-color: #2b7bf3;
+    padding: 10px 0;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.our-school-facilities button{
+    background-color: #f52a84;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-left: 60px;
+    
+}
+section.our-school-facilities button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+section.our-school-facilities .main-fancy-border{
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+section.our-school-facilities .fancy-border{
+    width: 250px;
+    height: 250px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background-image: url('../images/children\ care.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    
+}
+section.our-school-facilities .fancy-border-1{
+    width: 250px;
+    height: 250px;
+    border-radius: 30% 30% 70% 70% / 30% 70% 70% 30%;
+    background-color: #7d22e3;
+    position: absolute;
+    
+}
+section.our-school-facilities .fancy-border-2{
+    width: 250px;
+    height: 250px;
+    border-radius: 78% 22% 70% 30% / 47% 50% 50% 53%;
+    background-color: #0a61b4d3;
+    position: absolute;
+}
+
+
+/* Gallery section happy enviroment */
+section.happy-enviroment{
+    padding: 0;
+    margin: 0;
+}
+
+section.happy-enviroment .enviroment{
+    margin: 50px 0;
+    text-align: center;
+}
+
+section.happy-enviroment .enviroment h3{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f52a84;
+}
+
+section.happy-enviroment .enviroment h1{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+
+/* Reviews */
+section.reviews{
+    background-image: url('../images/testimonials.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.reviews .overlay{
+height: 100%;
+width: 100%;
+background: rgba(0, 0, 0, 0.386);
+}
+
+section.reviews .satisfied{
+    padding: 80px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.reviews .satisfied h4{
+    color: #ffcf13;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+section.reviews .satisfied h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+section.reviews .satisfied .parents-say{
+    background-color: #fff;
+    width: 900px;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 120px;
+    
+}
+section.reviews .satisfied .parents-say img{
+    border-radius: 50%;
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 30px 10px;
+}
+
+section.reviews .satisfied .parents-say .text{
+    width: 500px;
+}
+section.reviews .satisfied .parents-say .text h4{
+    font-weight: 700;
+    color: #000;
+}
+section.reviews .satisfied .parents-say .text h5{
+    font-weight: 700;
+    color: #f52a84;
+}
+
+
+/* Footer Quick Links */
+section.quick-links{
+    padding: 10px 0;
+    margin: 0;
+}
+
+section.quick-links .outer-div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* logo and email */
+section.quick-links .outer-div .email{
+    width: 300px;
+}
+
+section.quick-links .outer-div .email img{
+    width: 150px;
+    height: 150px;
+}
+
+section.quick-links .outer-div .email p{
+    margin: 0;
+    padding: 0;
+}
+
+section.quick-links .outer-div .email a{
+    text-decoration: none;
+    color: #000;
+    flex-direction: row;
+}
+
+
+/* links  */
+section.quick-links .outer-div .links{
+    margin: 0;
+    padding: 0;
+}
+section.quick-links .outer-div .links h1{
+    color:#b9145f;
+    font-weight: 700;
+
+}
+section.quick-links .outer-div .links ul li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+section.quick-links .outer-div .links a{
+    text-decoration: none;
+    color: #b9145f;
+}
+
+/* flollow us */
+section.quick-links .outer-div .follow-us h1{
+    color: #b9145f;
+    font-weight: 700;
+}
+
+
+/* footer */
+section.footer{
+    margin:0 ;
+    background-color: #b9145f;
+    width: 100%;
+    display: flex;
+    height: fit-content;
+}
+
+section.footer .final-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    height: fit-content;
+}
+section.footer .final-footer a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+/* Contact Us Page */
+
+.form{
+    margin: 50px 0;
+    padding: 0;
+}
+.form .main-form{
+    padding: 10px;
+    border: 1px solid #000;
+
+}
+.form form {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: block;
+  }
+.form .btn.btn-primary {
+    float: right;
+  }
+.form .btn-close {
+    display: flex;
+  }
+.form .form-group{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+
+
+/* About Academic  */
+section.academic .card-title {
+    display: flex;
+    background: #2c2b2b;
+    color: #fff;
+    padding: 20px 10px;
+    /* margin: 200px 0; */
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+section.academic .image img{
+    overflow: hidden;
+    object-fit: cover;
+    transition: 1s;
+}
+section.academic .image img:hover{
+    scale: 1.5;
+}
+
+section.academic .card-img-overlay {
+    padding: 0 !important;
+}
+
+

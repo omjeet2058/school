@@ -1,0 +1,35 @@
+@media (max-width: 575.98px) { 
+    section.logo-bar{
+        display: none;
+    }
+    .header-contact {
+        font-size: 14px;
+    }
+    .col-md-6.media {
+        text-align: center;
+    }
+    section.slider img{
+      height: 250px;
+    }
+}
+@media (min-width: 575.98px) { 
+    nav img{
+        display: none;
+      }
+}
+
+@media (max-width: 767.98px) { 
+
+}
+
+@media (max-width: 991.98px) { 
+    
+ }
+
+@media (max-width: 1199.98px) { 
+    
+ }
+
+@media (max-width: 1399.98px) { 
+    
+ }
